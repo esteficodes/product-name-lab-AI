@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+[build]
+  base = "client"
+  publish = "dist"
+  command = "npm run build"
